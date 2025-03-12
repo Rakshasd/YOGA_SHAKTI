@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background: url('yoga-background.jpg') no-repeat center center/cover;*/
+    color: #333;
+    background: url('Body_Background_Img5.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the whole page */
+
+}
+
+header {
+    background: #ff9800;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    background: url('Body_Background_Img5.jpg');
+    align-self: center;
+}
+header h1 {
+    margin-bottom: 5px; /* Reduce space below the main title */
+}
+header h5 {
+    color: black; /* Sets the text color to black */
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+}
+p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+}
+.quote {
+    text-align: center;
+    background: rgb(195, 238, 240); /* Ensures it's not on the background image */
+    padding: 15px;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    text-align: center;  /* Centers text inside the section */
+    width: 80%;  /* Adjust width as needed */
+    margin: 50px auto;  /* Centers the section horizontally */
+    padding: 20px;
+    background-color: #f9f9f9;  /* Light background for better visibility */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes items align in a row */
+    justify-content: center; /* Centers the items */
+    background-color: #222;
+    padding: 10px;
+    align-self: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#schedule ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes extra padding */
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+
+.section {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 0px;
+}
